@@ -1,0 +1,373 @@
+body.home {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(images/gitar.jpg);
+    background-size: cover
+}
+
+body{
+    margin: 0;
+}
+
+.home-parent-div{
+    width: 1000px;
+    margin: auto;
+    margin-top: 150px;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.home-children-div{
+    color: white;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.home-link-content a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.float-left{
+    float:left
+}
+
+.float-right{
+    float:right;
+}
+
+.home-children-div h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.home-children-div p{
+    font-size: 15px;
+    text-align: center;
+}
+
+#left-home-child{
+    margin-top: 40px;
+}
+
+.home-link-content{
+    margin-bottom: 30px;
+}
+
+.home-to-about-btn{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 9px 20px;
+    font-size: 16px;
+    border-radius: 8px
+}
+
+a.home-to-about-btn{
+    text-decoration: none;
+}
+
+.to-about-btn{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.body-about{
+    width: 100%;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.navigasi{
+    width: 100%;
+}
+
+.navigasi-contain{
+    width: 1000px;
+    padding: 25px 0px;
+    color: white;
+    margin: auto;
+    font-size: 20px;
+}
+
+.navigasi-contain a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.about-parent-div{
+    width: 1000px;
+    margin: auto
+}
+
+.about-title-div{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 25;
+}
+
+.about-children-div{
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.about-logo-contain{
+    width: 55%;
+    margin: auto;
+}
+
+.about-logo-contain img{
+    border-radius: 50%;
+}
+
+.about-children-div p{
+    font-size: 15px;
+}
+
+.body-contact{
+    width: 100%;
+    height: 100vh;
+}
+
+.body-contact .navigasi{
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.body-contact-half{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+
+.black-bgcolour{
+    background-color: #221f1f;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.contact-form-container{
+    width: 80%;
+    margin: 20px 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-contact{
+    margin-top: 40px;
+}
+
+.form-contact label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.form-contact input{
+    line-height: 2;
+    font-size: 15px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.form-contact input[type='submit']{
+    display: block;
+    margin-top: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 5px 20px;
+    font-size: 16px;
+    width: 150px;
+    border-radius: 8px
+}
+
+.map-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.map img{
+    width: 100%;
+    height: 350px;
+    border-radius: 8px;
+}
+
+.body-newarrival{
+    width: 100%;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.newarrival-parent-div{
+    width: 1200px;
+    margin: 40px auto;
+}
+
+.newarrival-children-div{
+    width: 50%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.newarrival-tittle-div h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.newarrival-main-product-contain{
+    margin: auto;
+    width: 50%;
+}
+
+.newarrival-main-product-image img{
+    border-radius: 50%;
+}
+
+.newarrival-main-product-name h2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.newarrival-discount-contain{
+    display: inline-block;
+    color: red;
+    position: absolute;
+    width: 100px;
+    top: 120px;
+    right: 60px;
+}
+
+.newarrival-discount-number{
+    font-size: 40px;
+}
+
+.newarrival-discount-text{
+    font-size: 30px;
+    text-align: center;
+}
+
+.newarrival-item-contain{
+    width: 90%;
+    margin: 25px auto;
+    background-color: #e0e0e0;
+}
+
+.newarrival-item-image{
+    width: 30%;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+.newarrival-item-desc{
+    width: 45%;
+    box-sizing: border-box;
+    margin: 16px;
+    text-align: right;
+    font-size: 15px;
+}
+
+.newarrival-item-desc h2:last-child{
+    color: blue;
+}
+
+.newarrival-item-contain:nth-child(2) .newarrival-item-desc{
+    text-align: left;
+}
+
+.body-product{
+    width: 100%;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.product-parent-div{
+    width: 1200px;
+    margin: 100px auto;
+    margin-top: 50px;
+}
+
+.product-children-div-left{
+    width: 20%;
+    box-sizing: border-box;
+    margin-top: 13px;
+}
+
+.product-children-div-right{
+    width: 75%;
+    box-sizing: border-box;
+}
+
+.brand-contain{
+    background-color: #c4c4c4;
+    width: 100%;
+}
+
+.brands-item-contain{
+    padding: 15px 50px;
+
+}
+
+.brands-item-contain h2{
+    font-size: 25px;
+}
+
+.brands-item-contain li{
+    list-style-type: none;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.brands-item-contain li a{
+    text-decoration: none;
+    color: black;
+}
+
+.brands-item-contain li a:hover{
+    color: white;
+}
+
+.product-item-contain{
+    width: 20%;
+    display: inline-block;
+    margin: 1.5%;
+    text-align: center;
+}
+
+.product-item-image-contain{
+    margin-bottom: 5px;
+}
+
+.product-item-image-contain img{
+    border-radius: 5px;
+}
+
+.product-item-name-contain{
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 19px;
+}
+
+.product-item-desc-contain{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.product-item-price-contain{
+    text-align: 19px;
+    font-weight: bold;
+    font-style: italic;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 5px;
+
+}
